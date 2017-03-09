@@ -26,7 +26,7 @@
 SCRIPT_VERSION=1.0.1
 RUN_USER=liferay
 TOMCAT_DIR=/opt/liferay
-TOMCAT_INSTANCE=TOMCAT_INSTANCE_VERSION_NUMBER
+TOMCAT_INSTANCE=tomcat-7.0.42
 CATALINA_HOME=$TOMCAT_DIR/$TOMCAT_INSTANCE
 EXEC_PATH=$CATALINA_HOME/bin          #insert the path of the executing programm
 EXEC_PRG=$EXEC_PATH/catalina.sh       #executing program
