@@ -31,6 +31,8 @@ RUN chmod +x /etc/init.d/functions
 ADD configs/liferay /etc/init.d/liferay
 RUN chmod +x /etc/init.d/liferay
 
+ADD configs/liferay.logrotation /etc/logrotate.d/liferay/liferay
+
 ADD configs/portal-ext.properties /opt/liferay/portal-ext.properties
 ADD configs/portal-setup-wizard.properties /opt/liferay/portal-setup-wizard.properties
 RUN chown -R liferay:liferay /opt/liferay
