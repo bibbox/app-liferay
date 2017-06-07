@@ -1,8 +1,9 @@
 {
-		"name": "Liferay v6.2.5 GA6 Release",
-		"short_name": "Liferay",
-		"version": "v6.2.5 GA6",
-		"description": "Liferay Portal is a free and open source enterprise portal software product. It is primarily used to power corporate intranets and extranets.",
-		"catalogue_url": "",
-		"application_url": "https://www.liferay.com/"
+	"name": "Liferay v6.2.5 GA6 Release",
+	"short_name": "Liferay",
+	"version": "v6.2.5 GA6",
+	"description": "Liferay Portal is a free and open source enterprise portal software product. It is primarily used to power corporate intranets and extranets.",
+	"catalogue_url": "",
+	"application_url": "https://www.liferay.com/",
+	"application_documentation_url": "https://web.liferay.com/community/liferay-projects/liferay-faces/documentation"
 }
